@@ -79,3 +79,9 @@ int main(int argc, char** argv) {
     MPI_Finalize();
     return 0;
 }
+
+/*
+Matrix size: 10x10, Time taken: 2.3e-05 seconds
+Matrix size: 100x100, Time taken: 0.0053 seconds
+Matrix size: 1000x1000, Time taken: 0.073598 seconds
+*/
